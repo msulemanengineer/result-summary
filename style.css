@@ -1,0 +1,147 @@
+.main {
+    width: 580px;
+    height: 430px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    display: flex;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.main .left-con {
+    height: 430px;
+    width: 290px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: #0004fac9;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+.res {
+    opacity: 0.7;
+    
+}
+
+.circle {
+    background-color: #2a02dda3;
+    border-radius: 50%;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 30px;
+    padding: 12px;
+}
+
+.left-con .circle h1 {
+    margin-bottom: 0px;
+}
+
+.left-con .circle p {
+    margin-top: 0px;
+}
+
+.left-con .great  p {
+    margin-left: 35px;
+    margin-right: 35px;
+    opacity: 0.7;
+}
+
+.right-con {
+    height: 430px;
+    width: 290px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.right-con .reaction, .memory, .verbal, .visual {
+    display: flex;
+    /* justify-content: space-around; */
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+svg {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.right-con .reaction .mar, .memory .mar, .verbal .mar, .visual .mar {
+    margin-left: 10px;
+}
+
+.right-con .reaction .mar {
+    color: #ff5757;
+}
+
+.right-con .memory .mar {
+    color: #ffb01f;
+}
+
+.right-con .verbal .mar {
+    color: #00bd91;
+}
+
+.right-con .visual .mar {
+    color: #1125d4;
+}
+
+.right-con .visual {
+    background-color: #eaeaef;
+}
+
+.right-con .reaction {
+    background-color: #f5eded;
+}
+
+.right-con .memory {
+    background-color: #f5f2ec;
+}
+
+.right-con .verbal {
+    background-color: #eef4f2;
+}
+
+.right-con .verbal .mar2, .visual .mar2 {
+    margin-left: 62px;
+}
+
+.right-con .reaction .mar1 {
+    margin-left: 50px;
+}
+
+.right-con .memory .mar2 {
+    margin-left: 50px;
+}
+
+.cont {
+    text-align: center;
+    padding: 14px;
+    border-radius: 24px;
+    color: white;
+    background-color: #303b5a;
+}
+
+.cont:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 375px) {
+    .main {
+        flex-direction: column;
+        width: 290px;
+    }
+
+    .left-con {
+        width: 100vw;
+    }
+
+    .right-con {
+        width: 100vw;
+    }
+}
